@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_criador">Iago Colodetti</string>
+    <string name="app_name">Análise Combinatória</string>
+    <string name="bt_calcular">Calcular</string>
+    <string name="tvN">N</string>
+    <string name="tvP">P</string>
+</resources>

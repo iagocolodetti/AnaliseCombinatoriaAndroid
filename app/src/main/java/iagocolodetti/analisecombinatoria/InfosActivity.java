@@ -69,6 +69,7 @@ public class InfosActivity extends AppCompatActivity {
 
         //region Spinner Tipos
         if(Build.VERSION.SDK_INT < 21) sprTipoInfo.setBackgroundColor(Color.parseColor("#DBDBDB"));
+        else if (Build.VERSION.SDK_INT >= 23) sprTipoInfo.setBackgroundTintList(getResources().getColorStateList(R.color.colorSpinnerBackgroundTint, null));
         else sprTipoInfo.setBackgroundTintList(getResources().getColorStateList(R.color.colorSpinnerBackgroundTint));
 
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, R.layout.spinner_textstyle, spinnerItens);

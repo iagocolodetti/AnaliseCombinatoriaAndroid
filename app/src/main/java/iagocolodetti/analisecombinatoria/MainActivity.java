@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         //region Spinner Tipos
 
         if(Build.VERSION.SDK_INT < 21) sprTipo.setBackgroundColor(Color.parseColor("#DBDBDB"));
+        else if (Build.VERSION.SDK_INT >= 23) sprTipo.setBackgroundTintList(getResources().getColorStateList(R.color.colorSpinnerBackgroundTint, null));
         else sprTipo.setBackgroundTintList(getResources().getColorStateList(R.color.colorSpinnerBackgroundTint));
 
         String spinnerItens[] = new String[]{"Permutação Simples", "Permutação com Repetição", "Arranjo Simples", "Arranjo com Repetição", "Combinação Simples", "Combinação com Repetição"};

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnaliseCombinatoria.iml" filepath="$PROJECT_DIR$/AnaliseCombinatoria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AnaliseCombinatoriaAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/AnaliseCombinatoriaAndroid.iml" group="AnaliseCombinatoriaAndroid" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AnaliseCombinatoriaAndroid-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AnaliseCombinatoriaAndroid-app.iml" group="AnaliseCombinatoriaAndroid/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
